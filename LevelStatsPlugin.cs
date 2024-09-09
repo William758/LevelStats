@@ -21,7 +21,7 @@ namespace TPDespair.LevelStats
 
 	public class LevelStatsPlugin : BaseUnityPlugin
 	{
-		public const string ModVer = "1.0.0";
+		public const string ModVer = "1.1.0";
 		public const string ModName = "LevelStats";
 		public const string ModGuid = "com.TPDespair.LevelStats";
 
@@ -100,9 +100,9 @@ namespace TPDespair.LevelStats
 			{
 				ILCursor c = new ILCursor(il);
 
-				const int baseValue = 74;
-				const int multValue = 75;
-				const int divValue = 76;
+				const int baseValue = 84;
+				const int multValue = 85;
+				const int divValue = 86;
 
 				bool found = c.TryGotoNext(
 					x => x.MatchLdloc(baseValue),
@@ -148,8 +148,8 @@ namespace TPDespair.LevelStats
 			{
 				ILCursor c = new ILCursor(il);
 
-				const int baseValue = 82;
-				const int multValue = 83;
+				const int baseValue = 94;
+				const int multValue = 95;
 
 				bool found = c.TryGotoNext(
 					x => x.MatchLdloc(baseValue),
@@ -187,8 +187,8 @@ namespace TPDespair.LevelStats
 			{
 				ILCursor c = new ILCursor(il);
 
-				const int baseValue = 78;
-				const int multValue = 79;
+				const int baseValue = 88;
+				const int multValue = 89;
 
 				bool found = c.TryGotoNext(
 					x => x.MatchLdloc(baseValue),
@@ -226,8 +226,8 @@ namespace TPDespair.LevelStats
 			{
 				ILCursor c = new ILCursor(il);
 
-				const int baseValue = 62;
-				const int multValue = 63;
+				const int baseValue = 70;
+				const int multValue = 71;
 
 				bool found = c.TryGotoNext(
 					x => x.MatchLdloc(baseValue),
@@ -265,9 +265,9 @@ namespace TPDespair.LevelStats
 			{
 				ILCursor c = new ILCursor(il);
 
-				const int lvlScaling = 66;
-				const int knurlValue = 67;
-				const int multValue = 72;
+				const int lvlScaling = 75;
+				const int knurlValue = 76;
+				const int multValue = 82;
 
 				bool found = c.TryGotoNext(
 					x => x.MatchLdcR4(1f),
