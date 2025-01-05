@@ -21,7 +21,7 @@ namespace TPDespair.LevelStats
 
 	public class LevelStatsPlugin : BaseUnityPlugin
 	{
-		public const string ModVer = "1.1.0";
+		public const string ModVer = "1.1.1";
 		public const string ModName = "LevelStats";
 		public const string ModGuid = "com.TPDespair.LevelStats";
 
@@ -148,8 +148,8 @@ namespace TPDespair.LevelStats
 			{
 				ILCursor c = new ILCursor(il);
 
-				const int baseValue = 94;
-				const int multValue = 95;
+				const int baseValue = 96;
+				const int multValue = 97;
 
 				bool found = c.TryGotoNext(
 					x => x.MatchLdloc(baseValue),
