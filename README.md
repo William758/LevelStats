@@ -26,6 +26,8 @@ Use r2modman or place inside of Risk of Rain 2/Bepinex/Plugins/
 
 ## Changelog:
 
+v1.2.0 - Updated for AC.
+
 v1.1.1 - Fixed attack speed not working.
 
 v1.1.0 - Updated for SotS.
